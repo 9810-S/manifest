@@ -30,6 +30,14 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="twelve" />
 
+  <!-- Exynos 9810 repos -->
+  <project path="device/samsung/universal9810-common" name="android_device_samsung_universal9810-common" remote="exynos9810" />
+  <project path="device/samsung/starlte" name="android_device_samsung_starlte" remote="exynos9810" />
+  <project path="device/samsung/star2lte" name="android_device_samsung_star2lte" remote="exynos9810" />
+  <project path="device/samsung/crownlte" name="android_device_samsung_crownlte" remote="exynos9810" />
+  <project path="kernel/samsung/universal9810" name="android_kernel_samsung_universal9810" remote="exynos9810" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="exynos9810" />
+  
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
