@@ -56,7 +56,6 @@
   <project path="vendor/samsung/starlte" name="android_vendor_samsung_starlte" remote="blob" />
   <project path="vendor/samsung/star2lte" name="android_vendor_samsung_star2lte" remote="blob" />
   <project path="vendor/samsung/crownlte" name="android_vendor_samsung_crownlte" remote="blob" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="arrow-clang" />
   
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
