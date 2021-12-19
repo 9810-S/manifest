@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/9810-S/manifest -b twelve
+repo init --depth=1 -u https://github.com/9810-S/manifest -b twelve-blob
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
