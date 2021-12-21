@@ -21,8 +21,6 @@
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="pixel" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixel" />
-  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
 
   <!-- Packages repos -->
   <!--project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" /-->
@@ -30,7 +28,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" /-->
   <!--project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" /-->
-  <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" /-->
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
 
   <!-- Prebuilts repos -->
