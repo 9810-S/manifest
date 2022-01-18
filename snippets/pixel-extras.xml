@@ -5,6 +5,10 @@
           fetch="https://github.com/Blob-Trees"
           revision="twelve" />
 
+  <remote name="9810"
+          fetch="https://github.com/9810-S"
+          revision="twelve" />
+
   <!-- External repos -->
   <!--project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" /-->
   <project path="external/bson" name="external_bson" remote="pixel" />
@@ -17,7 +21,7 @@
 
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="blob-updates" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="9810" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
