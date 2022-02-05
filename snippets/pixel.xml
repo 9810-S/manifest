@@ -15,6 +15,10 @@
           fetch="https://github.com/blob-trees"
           revision="twelve" />
 
+  <remote name="blob-rc"
+          fetch="https://github.com/blob-trees"
+          revision="AOSP-RC-2.2" />
+
   <remote name="baddar"
           fetch="https://github.com/baddar90"
           revision="rc" />
@@ -58,7 +62,7 @@
   <project path="device/samsung/star2lte" name="android_device_samsung_star2lte" remote="blob" />
   <project path="device/samsung/crownlte" name="android_device_samsung_crownlte" remote="blob" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="blob" />
-  <project path="kernel/samsung/universal9810" name="android_kernel_samsung_universal9810" remote="blob-twelve" />
+  <project path="kernel/samsung/universal9810" name="android_kernel_samsung_universal9810" remote="blob-rc" />
   <project path="vendor/samsung/universal9810-common" name="blob-trees/android_vendor_samsung_universal9810-common" revision="aosp-12" remote="private_stuff" />
   <project path="vendor/samsung/starlte" name="blob-trees/android_vendor_samsung_starlte" revision="aosp-12" remote="private_stuff" />
   <project path="vendor/samsung/star2lte" name="android_vendor_samsung_star2lte" remote="blob" />
